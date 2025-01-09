@@ -1,29 +1,9 @@
-import ClinicManager from "../../public/images/clinicmanager.png";
-import WriteIt from "../../public/images/writeit.png";
-import CSSImage from "../../public/images/css.png";
-import JavaScriptImage from "../../public/images/javascript-logo.png";
-import TypeScriptImage from "../../public/images/typescript.png";
-import ReactImage from "../../public/images/react.png";
-import NextjsImage from "../../public/images/nextjs.png";
-import Nodejs from "../../public/images/nodejs.png";
-import Git from "../../public/images/github.png";
-import Tailwind from "../../public/images/tailwind.png";
-import PrismaImage from "../../public/images/prisma.png";
-import Redux from "../../public/images/redux.png";
-import Express from "../../public/images/express.png";
-import Postgres from "../../public/images/postgresql.png";
-import PythonImage from "../../public/images/python.png";
-import FramerMotion from "../../public/images/framer.png";
-import MongoDB from "/images/mongodb.png";
-import HTMLImage from "../../public/images/html.png";
-
-
 export type TProjectsData = {
   id: number;
   title: string;
   description: string;
   tags: string[];
-  imageUrl: StaticImageData;
+  imageUrl: string;
   githubUrl: string;
   liveUrl: string;
 };

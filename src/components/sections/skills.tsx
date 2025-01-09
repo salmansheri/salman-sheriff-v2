@@ -34,7 +34,7 @@ const Skills = () => {
                 x
               }}
           >
-            {skillsData.map((skill, index) => (
+            {skillsData.map((skill) => (
                 <div
                     key={skill.label}
                     className=" mt-16 p-5 h-[20rem] w-[15rem] rounded-lg backdrop-blur-lg backdrop-saturate-150 bg-slate-300/10"

@@ -40,7 +40,7 @@ const Hero = () => {
         delay: stagger(0.2),
       },
     );
-  }, []);
+  }, [titleAnimate, titleScope]);
 
   const handleProjectsClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
     event.preventDefault();

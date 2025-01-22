@@ -4,17 +4,17 @@ import Intro from "@/components/sections/intro";
 import Skills from "@/components/sections/skills";
 import Projects from "@/components/sections/projects";
 import Footer from "@/components/layout/footer";
+import { ReactLenis } from "lenis/react";
 
-
-export default function Home() {
+export default async function Home() {
   return (
-      <div className="">
-        <Header />
-        <Hero />
-        <Intro />
-        <Skills />
-        <Projects />
-        <Footer />
-      </div>
+    <ReactLenis root>
+      <Header />
+      <Hero />
+      <Intro />
+      <Skills />
+      <Projects />
+      <Footer />
+    </ReactLenis>
   );
 }
